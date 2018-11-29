@@ -1,5 +1,5 @@
 import jenkins.model.*
-jenkins =Jenkins.instance
+jenkins = Jenkins.instance
 node { //allocates a Jenkins executor and the workspace for the Pipeline
   stage ('Clone second git repository'){ //Define a stage/step of the pipeline called "Clone second git repository"
          try { //using try/catch structure to get the errors
