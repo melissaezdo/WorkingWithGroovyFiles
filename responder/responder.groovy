@@ -2,6 +2,8 @@ def hello(greet){ //defining a function called "hello" which receives an argumen
   if (greet == "hi"){ //if the greet value iquals "hello" then executes the
          println "Hello from responder file!"
          println 'Hello from responder file!'
+    Modify responder.groovy  
+         println "Hello $NAME"
   }
 
   else { // if the greet values is diffrent to "hello" then executes the
